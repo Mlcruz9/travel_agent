@@ -8,7 +8,7 @@ from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 load_dotenv()
 
-from utils import get_city_center, create_location_entry
+from .utils import get_city_center, create_location_entry
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
 google_api_key = os.getenv("GOOGLE_API_KEY")

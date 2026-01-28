@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 3) Variables de entorno:
 ```bash
-cp .env.example .env
+touch .env
 ```
 Edita `.env` con tus claves.
 

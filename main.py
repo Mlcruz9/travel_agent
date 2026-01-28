@@ -5,7 +5,7 @@ import os
 from agent.agent_builder import get_agent
 
 # Leer la plantilla HTML solo una vez
-with open("interface.html", "r", encoding="utf-8") as f:
+with open("web/interface.html", "r", encoding="utf-8") as f:
     MAP_TEMPLATE = f.read()
 
 st.set_page_config(page_title="AI Travel Planner 🌍", layout="wide")
