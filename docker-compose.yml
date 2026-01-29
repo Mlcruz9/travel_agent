@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  streamlit-app:
+    build: .
+    networks:
+      - proxy
+    environment:
+      VIRTUAL_HOST: travelagent.miguellacruz.es, www.travelagent.miguellacruz.es
+      LETSENCRYPT_HOST: travelagent.miguellacruz.es, www.travelagent.miguellacruz.es
+      LETSENCRYPT_EMAIL: mislap87@gmail.com
+
+networks:
+  proxy:
+    name: nginx-proxy
+    external: true

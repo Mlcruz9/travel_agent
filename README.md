@@ -2,6 +2,14 @@
 
 Aplicación web en Streamlit que genera itinerarios de viaje con IA, mapas interactivos y recomendaciones basadas en platos locales, intereses o presupuesto. Usa herramientas externas (Google Maps y búsqueda web) y un agente conversacional para decidir qué plan crear y formatear la respuesta.
 
+## Despliegue
+
+La app está desplegada en:
+```
+https://travelagent.miguellacruz.es
+https://www.travelagent.miguellacruz.es
+```
+
 ## Funcionalidades principales
 
 - Chat interactivo para pedir planes por ciudad.
