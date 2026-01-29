@@ -8,7 +8,7 @@ services:
     environment:
       VIRTUAL_HOST: travelagent.miguellacruz.es, www.travelagent.miguellacruz.es
       LETSENCRYPT_HOST: travelagent.miguellacruz.es, www.travelagent.miguellacruz.es
-      LETSENCRYPT_EMAIL: mislap87@gmail.com
+      LETSENCRYPT_EMAIL: ${LETSENCRYPT_EMAIL}
 
 networks:
   proxy:
